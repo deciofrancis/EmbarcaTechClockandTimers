@@ -3,9 +3,9 @@
 #include "hardware/timer.h"
 
 // Definição dos pinos GPIO para cada LED do semáforo
-#define LED_VERMELHO 13
+#define LED_VERMELHO 11
 #define LED_AMARELO 12
-#define LED_VERDE 11
+#define LED_VERDE 13
 
 // Índice que controla o estado do semáforo
 int estado_atual = 0;

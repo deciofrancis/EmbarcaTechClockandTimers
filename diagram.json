@@ -54,13 +54,13 @@
     }
   ],
   "connections": [
-    [ "pico:GP13", "r1:2", "green", [ "h-48", "v10" ] ],
+    [ "pico:GP11", "r1:2", "green", [ "v0.04", "h-48", "v-57.6" ] ],
     [ "r1:1", "led2:A", "green", [ "v0", "h-76.8" ] ],
     [ "led2:C", "pico:GND.1", "green", [ "h-57.2", "v-76.8" ] ],
-    [ "pico:GP12", "r2:2", "green", [ "h-48", "v10" ] ],
+    [ "pico:GP12", "r2:2", "green", [ "v0.04", "h-56.4" ] ],
     [ "r2:1", "led3:A", "green", [ "v0", "h-48" ] ],
     [ "led3:C", "pico:GND.1", "green", [ "h-57.2", "v-124.8" ] ],
-    [ "pico:GP11", "r3:2", "green", [ "h-48", "v10" ] ],
+    [ "pico:GP13", "r3:2", "green", [ "h-48", "v38.44" ] ],
     [ "r3:1", "led1:A", "green", [ "v0", "h-48" ] ],
     [ "led1:C", "pico:GND.1", "green", [ "h-57.2", "v-172.8" ] ]
   ],
